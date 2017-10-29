@@ -23,6 +23,8 @@ struct sockaddr_in servaddr,cliaddr;
 char sendline[BUFSIZE];
 char recvline[BUFSIZE];
 int sockfd,n;
+/*disclaimer, this code is taken from http://courses.cs.vt.edu/~cs5565/spring2012/projects/project1/posix-timers.c and 
+modified it and hence the original source code belongs to the vt university*/
 
 
 // forward declaration: user-defined timer function
