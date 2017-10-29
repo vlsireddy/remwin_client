@@ -1,5 +1,3 @@
-LIBS += $(LIBC_DIR)/libm.a
-
 objects := $(patsubst %.c,%.o,$(wildcard *.c))
 
 remclient: $(objects)
